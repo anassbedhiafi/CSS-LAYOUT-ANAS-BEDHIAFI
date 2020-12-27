@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=VT323&display=swap");
+main {
+  background-color: white;
+}
+li,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 540;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 7%;
+  background-color: transparent;
+  background-image: url("https://media.tenor.com/images/7c0727a0ec77f5e4829ceaa36824423e/tenor.gif");
+}
+
+.logo {
+  cursor: pointer;
+  width: 40px;
+}
+.nav__links {
+  list-style: none;
+  background-color: transparent;
+  margin: 10px;
+  padding: 1px;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 3px;
+}
+#mmm {
+  position: relative;
+  left: 400px;
+  top: 3px;
+}
+#ppp {
+  position: relative;
+  left: 400px;
+  top: 3px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: green;
+}
+button {
+  padding: 9px 25px;
+  background-color: purple;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: green;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+  font-size: 60px;
+  font-family: "VT323", monospace;
+}
+h2 {
+  color: green;
+  font-family: "Audiowide", cursive;
+  font-size: 30px;
+  padding: 1%;
+}
+p {
+  color: #fff;
+  font-size: 18px;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190726/pngtree-purple-starry-sky-and-black-trees-silhouette-image_121544.jpg);
+}
+body {
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-purple-nebula-banner-background-debrispurplenebulastarry-sky-image_83244.jpg);
+}
+nav {
+  background-color: transparent;
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-sign-in-purple-line-gradient-image_21841.jpg);
+}
+main {
+  background-image: url(https://media1.tenor.com/images/c33846280717b9bcf240233b12cf822f/tenor.gif?itemid=19457480);
+}
+.cta {
+  position: relative;
+  left: 40px;
+  top: -1px;
+}
+.logo {
+  position: relative;
+  left: -50px;
+  top: -1px;
+}
+.Y,
+#V,
+h2 {
+  text-align: center;
+  text-decoration-line: overline;
+}
+footer {
+  margin-top: 30px;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: purple;
+  background-image: url("https://i.postimg.cc/9fS2F74j/l.png");
+}
+footer > a,
+span {
+  background-color: purple;
+  color: black;
+  font-size: 20px;
+  padding: 3px;
+}
+.S {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 36%;
+}
+.K {
+  position: relative;
+  left: 30px;
+  top: -811px;
+}
+.C {
+  position: relative;
+  left: -372px;
+  top: -530px;
+}
+.X {
+  position: relative;
+  left: -779px;
+  top: -247px;
+}
+.M {
+  position: relative;
+  right: -1040px;
+  top: -1046px;
+}
+.L {
+  position: relative;
+  right: -640px;
+  top: -766px;
+}
+.I {
+  position: relative;
+  right: -235px;
+  top: -482px;
+}
+
+#M {
+  position: relative;
+  top: -480px;
+}
+h2 > a {
+  color: green;
+}
+div > h2,
+div > h4,
+div > section {
+  position: relative;
+  top: -480px;
+}
+audio {
+  position: relative;
+  top: -20px;
+  right: -600px;
+}
+#songs {
+  position: relative;
+  top: -20px;
+  right: -540px;
+  font-size: 25px;
+  background-color: purple;
+}
+#enjoy {
+  position: relative;
+  top: 100px;
+  right: -60px;
+  width: 1400px;
+}
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid purple;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: purple;
+  color: green;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: green;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: purple;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+#pricing {
+  position: relative;
+  left: -200px;
+  top: -320px;
+}
+#pricing > h2 {
+  position: relative;
+  right: -750px;
+  top: -120px;
+}
+#kkk {
+  position: relative;
+  right: -0px;
+  top: -100px;
+}
+#moviee {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-left: 300px;
+  top: -200px;
+}
+#moviee > h2 {
+  position: relative;
+  left: -150px;
+  top: -50px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+  position: relative;
+  left: -770px;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  position: relative;
+  left: -770px;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+  position: relative;
+  left: -770px;
+}
